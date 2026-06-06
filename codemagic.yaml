@@ -6,7 +6,7 @@ workflows:
       java: 17
     scripts:
       - name: Grant execute permission for gradlew
-        script: chmod +x gradlew
+        script: chmod +x android/gradlew
       - name: Build Android App (APK)
         script: ./gradlew assembleDebug
     artifacts:
