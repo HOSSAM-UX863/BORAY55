@@ -5,10 +5,11 @@ workflows:
     environment:
       java: 17
     scripts:
+      - name: Get Flutter dependencies
+        script: flutter pub get
       - name: Grant execute permission for gradlew
-        script: chmod +x android/gradlew || echo "gradlew not found, creating it..."
-flutter pub get
+        script: chmod +x android/gradlew
       - name: Build Android App (APK)
-        script: ./gradlew assembleDebug
+        script: cd android && ./gradlew assembleDebug
     artifacts:
-      - app/build/outputs/apk/**/*.apk
+      - build/outputs/apk/**/*.apk
