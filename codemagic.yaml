@@ -1,4 +1,3 @@
-
 workflows:
   android-workflow:
     name: Android Build
@@ -9,6 +8,6 @@ workflows:
       - name: Grant execute permission for gradlew
         script: chmod +x ./gradlew
       - name: Build Android App (APK)
-        script: ./gradlew assembleDebug --stacktrace
+        script: ./gradlew assembleDebug -Xmx512m
     artifacts:
       - app/build/outputs/apk/**/*.apk
