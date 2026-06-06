@@ -3,8 +3,6 @@ workflows:
     name: Android Build
     max_build_duration: 120
     environment:
-      android_signing:
-        - keystore_reference
       java: 17
     scripts:
       - name: Set up local.properties
