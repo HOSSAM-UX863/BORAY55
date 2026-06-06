@@ -1,15 +1,13 @@
-workflows:
+ضworkflows:
   android-workflow:
     name: Android Build
-    max_build_duration: 120
+    max_build_duration: 60
     environment:
       java: 17
     scripts:
-      - name: Set up local.properties
-        script: |
-          echo "sdk.dir=$ANDROID_SDK_ROOT" > "$CM_BUILD_DIR/local.properties"
+      - name: Grant execute permission for gradlew
+        script: chmod +x gradlew
       - name: Build Android App (APK)
-        script: |
-          ./gradlew assembleDebug
+        script: ./gradlew assembleDebug
     artifacts:
       - app/build/outputs/apk/**/*.apk
