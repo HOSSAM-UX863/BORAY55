@@ -1,4 +1,4 @@
-ضworkflows:
+workflows:
   android-workflow:
     name: Android Build
     max_build_duration: 60
