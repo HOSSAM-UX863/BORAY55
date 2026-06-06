@@ -1,0 +1,59 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <!-- Sophisticated circular academic crest representing Borai -->
+    <path
+        android:fillColor="#141414"
+        android:strokeColor="#C5A059"
+        android:strokeWidth="2.5"
+        android:strokeLineJoin="round"
+        android:pathData="M54,20 C72.8,20 88,35.2 88,54 C88,72.8 72.8,88 54,88 C35.2,88 20,72.8 20,54 C20,35.2 35.2,20 54,20 Z" />
+        
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#C5A059"
+        android:strokeWidth="1.0"
+        android:pathData="M54,24 C70.5,24 84,37.5 84,54 C84,70.5 70.5,84 54,84 C37.5,84 24,70.5 24,54 C24,37.5 37.5,24 54,24 Z" />
+        
+    <!-- Stylized modern Arabic lettering of the name "برعي" inside the crest -->
+    <!-- 'ب' character representation with sharp traditional stroke -->
+    <path
+        android:strokeColor="#C5A059"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M72,48 L65,48 L65,44" />
+    <path
+        android:fillColor="#C5A059"
+        android:pathData="M66.5,53 A1.5,1.5 0 1,1 63.5,53 A1.5,1.5 0 1,1 66.5,53 Z" /> <!-- dot for Beh -->
+        
+    <!-- 'ر' swoop/curve with clean tail -->
+    <path
+        android:strokeColor="#C5A059"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M60,48 C55,48 51,52 49,58" />
+        
+    <!-- 'ع' crescent with accurate loop weight -->
+    <path
+        android:strokeColor="#C5A059"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M48,42 C45,39 39,39 39,43 C39,47 44,47 43,51" />
+        
+    <!-- 'ي' sweep curving gracefully underneath the baseline -->
+    <path
+        android:strokeColor="#C5A059"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M43,51 C41,55 45,64 35,64 C28,64 27,57 32,56" />
+    <!-- Two dots of Yeh under the final sweep -->
+    <path
+        android:fillColor="#C5A059"
+        android:pathData="M37,70 A1.2,1.2 0 1,1 34.6,70 A1.2,1.2 0 1,1 37,70 Z" />
+    <path
+        android:fillColor="#C5A059"
+        android:pathData="M42,70 A1.2,1.2 0 1,1 39.6,70 A1.2,1.2 0 1,1 42,70 Z" />
+</vector>

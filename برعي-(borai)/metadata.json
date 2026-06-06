@@ -1,0 +1,6 @@
+{
+  "name": "برعي (Borai)",
+  "description": "Premium Dark Academia-themed educational mobile app featuring animated Arabic calligraphy splashes, smart AI chat in Egyptian Ammiya, quiz generators, and fully interactive notebook-styled mind maps.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
